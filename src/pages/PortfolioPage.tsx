@@ -13,7 +13,7 @@ const journeyData = [
   {
     year: '2026 – February',
     role: 'Gastroenterologist Specialist Graduation',
-    place: 'University of Heal and Sciences, Phnom Penh',
+    place: 'University of Health Sciences, Phnom Penh',
     desc: 'After years of intensive medical training, I obtained my specialization in Gastroenterology, focusing on diseases of the digestive system and liver.',
     highlight: true,
     images: ['/gr1.jpg', '/gr2.jpg']
