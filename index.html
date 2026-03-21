@@ -1,41 +1,90 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta name="description" xml:lang="km" content="គេហទំព័រផ្លូវការរបស់លោកវេជ្ជបណ្ឌិត ឯក វឌ្ឍនៈ (Dr. Ek Vattanak) នៅប្រទេសកម្ពុជា។ ជំនាញផ្នែកឯកទេសក្រពះ ពោះវៀន និង រន្ធបាត។">
-<meta name="keywords" xml:lang="km" content="ឯក វឌ្ឍនៈ, វេជ្ជបណ្ឌិតឯកទេស ឯក វឌ្ឍនៈ, គ្រូពេទ្យកម្ពុជា, Ek Vattanak, Dr. Ek Vattanak">
-
-<meta property="og:description" xml:lang="km" content="ប្រវត្តិរូបសង្ខេប និងគម្រោងរបស់លោកវេជ្ជបណ្ឌិត ឯក វឌ្ឍនៈ ក្នុងប្រទេសកម្ពុជា។">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>Dr. Ek Vattanak | Professional Profile</title>
-    <meta name="title" content="Dr. Ek Vattanak | Professional Profile">
-    <meta name="description" content="Official website of Dr. Ek Vattanak, based in Cambodia. Specializing in Gastroenterology and Proctology.">
-    <meta name="keywords" content="Dr. Ek Vattanak, Ek Vattanak, Cambodia, Gastroenterology, Proctology, Vercel, GI Health Cambodia">
 
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ekvattanak.vercel.app/">
-    <meta property="og:title" content="Dr. Ek Vattanak">
-    <meta property="og:description" content="Professional profile and projects of Dr. Ek Vattanak in Cambodia.">
+    <title>Dr. Ek Vattanak | Gastroenterology & Proctology | Calmette Hospital</title>
+
+    <meta
+      name="title"
+      content="Dr. Ek Vattanak | Gastroenterology & Proctology | Calmette Hospital"
+    />
+
+    <meta
+      name="description"
+      content="Official website of Dr. Ek Vattanak, female physician based in Cambodia, specializing in Gastroenterology and Proctology at Calmette Hospital."
+    />
+
+    <meta
+      name="keywords"
+      content="Dr. Ek Vattanak, Ek Vattanak, female doctor Cambodia, gastroenterologist Cambodia, proctologist Cambodia, Calmette Hospital, Gastroenterology, Proctology"
+    />
+
+    <meta
+      name="description"
+      xml:lang="km"
+      content="គេហទំព័រផ្លូវការរបស់វេជ្ជបណ្ឌិតស្រី ឯក វឌ្ឍនៈ (Dr. Ek Vattanak) នៅប្រទេសកម្ពុជា។ ជំនាញផ្នែកក្រពះ ពោះវៀន និង រន្ធបាត នៅមន្ទីរពេទ្យកាល់ម៉ែត។"
+    />
+
+    <meta
+      name="keywords"
+      xml:lang="km"
+      content="ឯក វឌ្ឍនៈ, វេជ្ជបណ្ឌិតស្រី ឯក វឌ្ឍនៈ, គ្រូពេទ្យកម្ពុជា, វេជ្ជបណ្ឌិតក្រពះពោះវៀន, វេជ្ជបណ្ឌិតរន្ធបាត, មន្ទីរពេទ្យកាល់ម៉ែត, Ek Vattanak, Dr. Ek Vattanak"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ekvattanak.vercel.app/" />
+    <meta property="og:title" content="Dr. Ek Vattanak | Gastroenterology & Proctology" />
+    <meta
+      property="og:description"
+      content="Official profile of Dr. Ek Vattanak, female physician in Cambodia, specializing in Gastroenterology and Proctology at Calmette Hospital."
+    />
+
+    <meta
+      property="og:description"
+      xml:lang="km"
+      content="ប្រវត្តិរូបផ្លូវការរបស់វេជ្ជបណ្ឌិតស្រី ឯក វឌ្ឍនៈ នៅប្រទេសកម្ពុជា។ ជំនាញផ្នែកក្រពះ ពោះវៀន និង រន្ធបាត នៅមន្ទីរពេទ្យកាល់ម៉ែត។"
+    />
 
     <meta name="google-site-verification" content="google61034e575550bf26" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Physician",
+        "name": "Dr. Ek Vattanak",
+        "gender": "Female",
+        "jobTitle": "Gastroenterologist and Proctologist",
+        "medicalSpecialty": ["Gastroenterology", "Proctology"],
+        "worksFor": {
+          "@type": "Hospital",
+          "name": "Calmette Hospital"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Cambodia"
+        },
+        "url": "https://ekvattanak.vercel.app/"
+      }
+    </script>
 
     <script>
       try {
         const origFetch = window.fetch;
         Object.defineProperty(window, 'fetch', {
           get: () => origFetch,
-          set: () => { /* ignore overwrite */ },
+          set: () => {},
           configurable: true
         });
       } catch (e) {
         console.warn('Could not redefine window.fetch', e);
       }
     </script>
-</head>
+  </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
