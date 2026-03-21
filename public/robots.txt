@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Specifically allow Google's AI crawler
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://ekvattanak.vercel.app/sitemap.xml
