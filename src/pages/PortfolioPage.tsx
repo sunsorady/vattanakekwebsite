@@ -66,22 +66,7 @@ export default function PortfolioPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
   
-  <a
-    href="/CV_EN.pdf"
-    download
-    className="px-6 py-3 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-full font-bold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all flex items-center gap-2"
-  >
-    <Download className="w-5 h-5" /> Download CV (EN)
-  </a>
-
-  <a
-    href="/CV_FR.pdf"
-    download
-    className="px-6 py-3 bg-white dark:bg-slate-800 text-slate-900 dark:text-white border border-slate-200 dark:border-slate-700 rounded-full font-bold shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex items-center gap-2"
-  >
-    <Download className="w-5 h-5"  /> Download CV (FR)
-  </a>
-
+ 
 </div>
         </div>
 
